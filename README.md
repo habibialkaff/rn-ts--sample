@@ -8,4 +8,7 @@ The app uses:
 
 This app has nested navigation: Tab Navigation inside Stack Navigation.
 
-It also uses ["HOC"](https://facebook.github.io/react/docs/higher-order-components.html) concept to restrict access for some Screens
+It also uses ["HOC"](https://facebook.github.io/react/docs/higher-order-components.html) concept to restrict access for some Screens.
+
+### How to use
+Make sure to run "npm run dev" while running "npm start" so that the typescript is compiled everytime a TS/TSX file is changed.
