@@ -1,0 +1,65 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react"
+  ],
+  "rules": {
+    "ban": [
+      true,
+      [
+        "Object",
+        "assign",
+        "use TS2.1 object spread { ...a, ...b }"
+      ],
+      [
+        "Object",
+        "getOwnPropertyNames",
+        "use Object.keys()"
+      ],
+      [
+        "describe",
+        "only"
+      ],
+      [
+        "it",
+        "only"
+      ]
+    ],
+    "linebreak-style": [
+      true,
+      "LF"
+    ],
+    "no-invalid-this": [
+      true,
+      "check-function-in-method"
+    ],
+    "variable-name": [
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "interface-name": [
+      false
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "object-literal-sort-keys": false,
+    "member-access": [
+      false
+    ],
+    "no-console": {
+      "severity": "warn"
+    },
+    "jsx-no-multiline-js": false
+  },
+  "jsRules": {
+    "object-literal-shorthand": true,
+    "trailing-comma": [
+      false
+    ]
+  }
+}

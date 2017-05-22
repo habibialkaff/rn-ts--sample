@@ -1,0 +1,37 @@
+{
+  "react-native": {
+    "packager": {
+      "port": 19001
+    }
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "dist/**": true,
+    ".vscode/**": true,
+    "**/build/**": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    ".idea/**": true,
+    "etc/**": true,
+    // "**/node_modules": true,
+    "**/*.js.map": true
+  },
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "editor.wordWrapColumn": 100,
+  "eslint.enable": false,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.formatOnSave": true,
+  "explorer.openEditors.visible": 0,
+  "javascript.validate.enable": true,
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "tslint.enable": true,
+  "tslint.exclude": "!**/src/**/*",
+  "tslint.autoFixOnSave": true
+}

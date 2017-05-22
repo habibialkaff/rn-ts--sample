@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "taskName": "linting",
+      "command": "./node_modules/.bin/tslint",
+      "windows": {
+        "command": ".\\node_modules\\.bin\\tslint"
+      },
+      "linux": {
+        "command": "./node_modules/.bin/tslint"
+      },
+      "osx": {
+        "command": "./node_modules/.bin/tslint"
+      },
+      "args": [
+        "src/**/*"
+      ],
+      "isShellCommand": true,
+      "showOutput": "silent",
+      "problemMatcher": {
+        "base": "$tslint5",
+        "fileLocation": "relative"
+      }
+    }
+  ]
+}
